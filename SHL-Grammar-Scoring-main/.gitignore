@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data
+*.wav
+*.csv
+
+# Models and outputs
+*.pkl
+*.json
+experiments/**/model.pkl
+experiments/**/predictions.csv
+
+# IDE
+.vscode/
+.env
